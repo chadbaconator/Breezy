@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+  }
+
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-nav > li {
+  text-align: center;
+}
+
+.nav-item {
+  font-size: 20pt;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+
+
+#header {
+  color: white;
+}
+
+.site-footer {
+  align-content: center;
+  background-color: rgb(34, 34, 34);
+  margin-top: 50px;
+}
+
+h5 {
+  color: white;
+  font-size: x-small;
+  text-decoration: underline;
+}
+
+.carousel-item {
+  width: 100%;
+}
+
+.carousel-caption {
+  position: justify;
+  top: 20%;
+  bottom: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+  padding-top: 50px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#homeP {
+  padding-top: 20px;
+}
