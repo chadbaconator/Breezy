@@ -1,6 +1,4 @@
-body, html {
-    height: 100%;
-  }
+
 
 
 .navbar {
@@ -18,8 +16,6 @@ body, html {
   align-items: center;
 }
 
-
-
 #header {
   color: white;
 }
@@ -28,6 +24,7 @@ body, html {
   align-content: center;
   background-color: rgb(34, 34, 34);
   margin-top: 50px;
+  max-width: 100%;
 }
 
 h5 {
@@ -55,4 +52,16 @@ h3 {
 
 #homeP {
   padding-top: 20px;
+}
+
+#mediaImg {
+  max-width: 250px;
+}
+
+#aboutMe {
+  margin-top: 5;
+}
+
+.row-content{
+
 }
