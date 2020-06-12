@@ -1,176 +1,198 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Breezy Photograph</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Breezy Photograph</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <!--Addiontial CSS -->
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+  <link rel="stylesheet" href="css/projectStyles.css" />
+  
+  <style>
     
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <!--Addiontial CSS -->
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="css/projectStyles.css" />
-    
-    <style>
-        
-    </style>
-    
+  </style>
+  
 </head>
 <body>
-    <!--header-->
-    
-    <!--Nav-->
-    <nav class="navbar navbar-expand-md navbar-light navbar-inverse" id="Top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav mx-auto justify-items-center">
-                    <li class="nav-item "><a class="nav-link" href="index.html"> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projectGallery.html"> Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projectABOUT.html"> About</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-<hr/>
-
-<!--Pricing Table-->
-    <div>
-        <div>
-            <div>
-                <h2 class="text-center">Order Fine Prints</h2>
-                <a class="btn mx-auto" style="width: 100px;" href="/projectABOUT.html#orderForm">Order Now</a>
-                <table class="table table-bordered table-responsive-sm">
-                    <thead class="thead-light">
-                      <tr>
-                        <th scope="col">Print Sizes</th>
-                        <th scope="col">Fine Print</th>
-                        <th scope="col">Canvas</th>
-                        <th scope="col">Metal</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">8x12</th>
-                        <td>$90</td>
-                        <td>$140</td>
-                        <td>$72</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">12x18</th>
-                        <td>$143</td>
-                        <td>$184</td>
-                        <td>$118</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">16x24</th>
-                        <td>$184</td>
-                        <td>$230</td>
-                        <td>$190</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">20x30</th>
-                        <td>$259</td>
-                        <td>$294</td>
-                        <td>$260</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">24x26</th>
-                        <td>$333</td>
-                        <td>$388</td>
-                        <td>$440</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Larger Sizes</th>
-                        <td>Quote Only</td>
-                        <td>Quote Only</td>
-                        <td>Quote Only</td>
-                      </tr>
-                    </tbody>
-                  </table>
-            </div>
-        </div>
-    </div>
-
-    <hr/>
-
-<!--Collapsible Table-->
-
-<h2>Photography Packages and Services</h2>
-<div id="accordion">
-    <div class="card">
-      <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Potraits
-          </button>
-        </h5>
-      </div>
+  <!--header-->
   
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
+  <!--Nav-->
+  <nav class="navbar navbar-expand-md navbar-light navbar-inverse" id="Top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nucampNavbar">
+        <ul class="navbar-nav mx-auto justify-items-center">
+          <li class="nav-item "><a class="nav-link" href="index.html"> Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="projectGallery.html"> Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"> Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="projectABOUT.html"> About</a></li>
+        </ul>
       </div>
     </div>
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Weddings
-          </button>
-        </h5>
+  </nav>
+  <hr/>
+  
+  <!--Pricing Table-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center">Order Fine Prints</h2>
+        <table class="table table-bordered table-responsive-sm">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Print Sizes</th>
+              <th scope="col">Fine Print</th>
+              <th scope="col">Canvas</th>
+              <th scope="col">Metal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">8 x 12</th>
+              <td>$90</td>
+              <td>$140</td>
+              <td>$72</td>
+            </tr>
+            <tr>
+              <th scope="row">12 x 18</th>
+              <td>$143</td>
+              <td>$184</td>
+              <td>$118</td>
+            </tr>
+            <tr>
+              <th scope="row">16 x 24</th>
+              <td>$184</td>
+              <td>$230</td>
+              <td>$190</td>
+            </tr>
+            <tr>
+              <th scope="row">20 x 30</th>
+              <td>$259</td>
+              <td>$294</td>
+              <td>$260</td>
+            </tr>
+            <tr>
+              <th scope="row">24 x 26</th>
+              <td>$333</td>
+              <td>$388</td>
+              <td>$440</td>
+            </tr>
+            <tr>
+              <th scope="row">Larger Sizes</th>
+              <td>Quote Only</td>
+              <td>Quote Only</td>
+              <td>Quote Only</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Commerical Use
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
+      <!--Order Button-->
+      <div class="col-2 mx-auto">
+        <a class="btn btn-secondary" href="/projectABOUT.html#orderForm">Order Now</a>
       </div>
     </div>
   </div>
-        
-
-<footer>
-    <div class="site-footer">
-        <div class="container">
-            <div class="row row-content">
-                <div class="col-5 col-sm-5 offset-md-3 text-center">
-                    <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                </div>
-                <div class="col mx-auto">
-                    <a class="btn btn-info" href="#Top">Top</a>
-                </div>
+  
+  <hr/>
+  
+  <!--Collapsible Table-->
+  
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-3 text-center">
+        <h3>Services</h3>
+        <p>Breezy Photography has a variety of different packages for your needs. </p>
+        <a class="btn btn-secondary" href="/projectABOUT.html#orderForm">Contact Us</a> 
+      </div>
+      <!--accordian start-->
+      <div class="col-md-8 mx-auto text-center">
+        <h4>Photography Packages and Services</h4>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-light" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Portraits
+                </button>
+              </h5>
             </div>
+            
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-light collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Weddings
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-light collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Commerical Use
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <!--
+        
+      -->
     </div>
-</footer>
-<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </div>
+  
+  <footer>
+    <div class="site-footer">
+      <div class="container">
+        <div class="row row-content">
+          <div class="col-2 mx-auto">
+            <h5>&copy;BreezyPhotography</h5>
+          </div>
+          <div class="col-5 col-sm-5 d-flex justify-content-center align-text-center">
+            <h5>Social:  </h5>
+            <a class="btn btn-social-icon btn-sm btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+            <a class="btn btn-social-icon btn-sm btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-sm btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-social-icon btn-sm btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+          </div>
+          <div class="col-2 mx-auto d-flex justify-content-center">
+            <a class="btn btn-info btn-sm" href="#Top">Top</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 

@@ -1,5 +1,11 @@
 
+body {
+  font-family: Helvetica;
+}
 
+h1, h2, h3, h4, h5 {
+  font-family:'Times New Roman';
+}
 
 .navbar {
   background-color: transparent;
@@ -33,6 +39,12 @@ h5 {
   text-decoration: underline;
 }
 
+h3 {
+  padding-top: 50px;
+  text-decoration: underline;
+  text-align: center;
+}
+
 .carousel-item {
   width: 100%;
 }
@@ -42,12 +54,6 @@ h5 {
   top: 20%;
   bottom: auto;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-h3 {
-  padding-top: 50px;
-  text-decoration: underline;
-  text-align: center;
 }
 
 #homeP {
@@ -62,3 +68,12 @@ h3 {
   margin-top: 5;
 }
 
+.card-header {
+  color: black;
+}
+.site-footer h5{
+  margin-right: 2px;
+}
+.btn-social-icon {
+  margin-right: 4px;
+}
