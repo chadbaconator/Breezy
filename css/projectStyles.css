@@ -77,3 +77,8 @@ h3 {
 .btn-social-icon {
   margin-right: 4px;
 }
+
+#orderForm {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
